@@ -1,0 +1,60 @@
+body {
+  background-color: brown;
+  font-family: Arial;
+  padding: 0;
+  
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: brown;
+}
+
+label {
+  color: grey;
+}
+.container {
+  background-color: white;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  margin: auto;
+  padding: 30px;
+  padding-bottom: 20px;
+  padding-top: 100px;
+  border-radius: 10px;
+  filter: drop-shadow(1px 1px 7px);
+}
+
+.login {
+  align-items: center;
+  text-align: center;
+}
+
+.button {
+  padding-right: 120px;
+  background-color: brown;
+  border: 0px;
+  height: 30px;
+  width: 175px;
+  border-radius: 15px;
+  filter: drop-shadow(0px 1px 3px);
+  color: white;
+  display: column;
+}
+
+.email {
+  filter: drop-shadow(0px 1px 3px);
+
+}
+
+.img {
+  width: 160px;
+  padding-bottom: 0px;
+  
+  
+}
