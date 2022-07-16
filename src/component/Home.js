@@ -11,7 +11,7 @@ function Home() {
 await logOut()
 navigate("/")
     }catch (err) {
-      console.log(err.message)
+      // console.log(err.message)
     }
   }
   return (
@@ -22,7 +22,7 @@ navigate("/")
     <div>
       {user && user.email}
       
-      <button onClick={handleLogOut}>LOG OUT</button>
+      <button onClick={handleLogOut}><Link to={"/"}>LOG OUT</Link></button>
     </div>
     </>
     

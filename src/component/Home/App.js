@@ -6,10 +6,12 @@ import Signup from "../Signup";
 import Home from "../Home";
 import { UserAuthContextProvider } from "../context/UserAuthContext";
 import Protect from "../../Protect";
+import Header from "../Header";
 
 function App() {
   return (
     <div>
+      {/* <Header/> */}
       <BrowserRouter>
       <UserAuthContextProvider>
         <Routes>
